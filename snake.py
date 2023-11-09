@@ -189,7 +189,7 @@ def game(user):
     pygame.display.set_caption("Pysnake")
 
     SCREENUPDATE = pygame.USEREVENT
-    pygame.time.set_timer(SCREENUPDATE, 200)
+    pygame.time.set_timer(SCREENUPDATE, 150)
 
     main_game = Main(user)
 
